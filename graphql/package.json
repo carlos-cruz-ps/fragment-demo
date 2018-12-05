@@ -1,0 +1,14 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.2.6",
+    "faker": "^4.1.0",
+    "graphql": "^14.0.2"
+  }
+}

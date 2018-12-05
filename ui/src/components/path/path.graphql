@@ -1,0 +1,10 @@
+#import "../path-level/path-level.graphql"
+
+query {
+  path {
+    title
+    pathLevels {
+      ...pathLevels
+    }
+  }
+}

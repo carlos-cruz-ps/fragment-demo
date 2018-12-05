@@ -1,0 +1,18 @@
+version: "3.0"
+services:
+  ui:
+    build: 
+      context: ./ui
+    volumes:
+      - ./ui:/app/
+      - ./ui/src/:/app/src/
+    ports:
+      - 4000:4000
+
+  api:
+    build:
+      context: ./graphql
+    volumes:
+      - ./graphql/:/app/
+    ports:
+      - 4001:4000

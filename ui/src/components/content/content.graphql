@@ -1,0 +1,6 @@
+fragment content on Content {
+  thumbnail
+  title
+  id
+  slug
+}

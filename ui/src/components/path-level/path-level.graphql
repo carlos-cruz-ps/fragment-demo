@@ -1,0 +1,9 @@
+#import "../content/content.graphql"
+
+fragment pathLevels on PathLevel {
+  id
+  title
+	content {
+    ...content
+  }
+}
